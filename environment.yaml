@@ -1,0 +1,40 @@
+name: aleatoric-epistemic-uncertainty-rl
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - tqdm
+  - jupyterlab
+  - ipywidgets
+  - deprecation
+  - pymongo
+  - wandb
+  # Install packages for pytorch
+  - pytorch=1.8.1
+  - torchvision
+  - torchaudio
+#  - cudatoolkit=11.3 # Recommended by get-started instructions on pytorch webpage
+  - cudatoolkit-dev
+  - pytorch-lightning
+#  - lightning-bolts
+  - torchmetrics
+  # Install ray tune via conda
+#  - ray-tune
+  - pip:
+    - gpytorch=3.5.1
+    - gym
+    - box2d-py
+    - pygame
+    - sacred
+    # Install seml
+    - seml
+    # Install ray tune via pip
+#    - ray[tune]
