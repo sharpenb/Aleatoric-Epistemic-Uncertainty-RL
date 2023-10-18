@@ -6,7 +6,7 @@ This repository presents the experiments of the paper:
 Bertrand Charpentier, Ransalu Senanayake, Mykel Kochenderfer, Stephan Günnemann<br>
 Distribution-Free Uncertainty Quantification Workshop (DFUQ - ICML), 2022.
 
-[Paper]((https://arxiv.org/pdf/2206.01558.pdf)
+[Paper](https://arxiv.org/pdf/2206.01558.pdf)
 
 ## Setup
 
